@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_socketio import SocketIO, send
 from datetime import datetime, timedelta
+from urllib.parse import quote as url_quote
 import os
 
 # Initialize app and configure database
